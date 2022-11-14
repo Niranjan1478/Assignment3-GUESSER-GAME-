@@ -1,7 +1,5 @@
 package com.game;
-
 import java.util.Scanner;
-
 public class Guesser
 {
 	
@@ -9,6 +7,7 @@ public class Guesser
 	GussersFields gf1=new GussersFields() ; int num;
 	int GusserNumber()
 	{
+		
 		Guesser gg=new Guesser();
 		System.out.println("Gusser Kindly Enter your number: ");
 		gf1.setGuesserNum(sc.nextInt());
@@ -20,7 +19,6 @@ public class Guesser
 			GusserNumber();
 		}
 		return gf1.getGuesserNum();
-
 	}
 
 }
