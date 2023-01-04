@@ -2,7 +2,7 @@ package com.game;
 import java.util.Scanner;
 public class Guesser
 {
-	
+	// Sasi
 	Scanner sc=new Scanner(System.in);
 	GussersFields gf1=new GussersFields() ; int num;
 	int GusserNumber()
